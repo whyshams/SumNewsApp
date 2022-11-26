@@ -1,0 +1,575 @@
+*{
+  font-family: 'Poppins',sans-serif;
+ 
+}
+.customad{
+  overflow: hidden;
+  
+}
+.contentcard a{
+  color: #00acee;
+}
+.blockcontent a{
+    color: #00acee;
+}
+pre{
+  overflow: hidden;
+}
+a code{
+  color: white;  
+}
+
+.screenshot{
+  width: 300px;
+  margin: 10px;
+  margin-left: 20px;
+}
+.screenshotmain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m1{
+  margin: 10px;
+}
+.singleimage{
+ height : 400px;
+ width: 740px;
+}
+.m2{
+  margin: 20px;
+}
+.courierprime{
+  font-family: 'Courier Prime', monospace;
+
+}
+.commentname{
+  margin-right: 30px;
+}
+figure img{
+  width: 720px;
+  height: 318px ;
+ 
+  
+}
+.hover-matt:hover{
+  background-color: #28282B;
+  color: white;
+}
+.writer h4{
+  font-size: 16px;
+  color: white;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prime{
+  font-family: 'Courier Prime', monospace;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+iframe{
+  display: block; /* Hidden by default */
+  
+ 
+  width: 100%; /* Full width */
+  min-height: 100vh; /* Full height */
+  overflow: scroll; /* Enable scroll if needed */
+ 
+  background-color: white;
+}
+.maindiv{
+  background-color: black;
+ 
+}
+
+.hr{
+  color: white;
+  
+}
+details {
+  text-align: center;
+}
+details p {
+  margin-top: 20px;
+}
+.image{
+    height:auto;
+    width:100%;
+    animation-name: fadeIn;
+    animation-timing-function: ease-out;
+    animation-duration: 700ms;
+    
+}
+.contentcard{
+  color: white;
+  margin: 40px;
+  background-color: #28282B;
+  padding: 20px;
+  margin-left: 10px;
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 700ms;
+ 
+
+}
+.contentcardpaper{
+  color: white;
+  margin: 40px;
+  background-color: #28282B;
+  padding: 20px;
+  margin-left: 10px;
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 700ms;
+ 
+
+}
+.contentcardpaper:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.moment{
+  font-size: 15px;
+}
+.cardtop{
+  color: white;
+
+  background-color: #28282B;
+  padding: 20px;
+  
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 700ms;
+}
+.toptitle{
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.contenttitle{
+  font-weight: 700;
+  font-size: 28px;
+}
+.contentpara{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px ;
+  animation-name: upDown;
+  animation-duration: 1000ms;
+}
+.contentparatitle{
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sharebutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sharebutton svg{
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+  border-radius: 50px;
+}
+.button{
+  font-weight: 700;
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 700ms;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.pagenamecard{
+  color: white;
+  margin-left: 10px;
+  padding: 20px;
+  margin-top: 40px;
+
+}
+.pagenametitle{
+  font-size: 20px;
+  font-weight: 700;
+}
+.pagename{
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+}
+.select{
+  background-color: #28282B;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 20px;
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+
+  animation-duration: 700ms;
+}
+.selecttitle{
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+
+}
+.optiontitle{
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tick{
+  height: 20px;
+  width: 20px;
+  
+}
+select{
+  width: 200px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
+.mainpagetitle{
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Bebas Neue',sans-serif;
+}
+.sumimage{
+    height: auto;
+    width: 600px;
+}
+.modu{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.menu{
+  text-align: center;
+  min-height: 50vh;
+  margin-bottom: 50px;
+}
+.frontbtn{
+  margin-bottom: 20px;
+  padding: 15px 150px;
+}
+.modumenu{
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+  background-color:black; /* Black w/ opacity */
+}
+#nprogress .bar {
+  height :5px;
+  background: white;
+  border-radius: 50px ;
+
+  
+}
+#nprogress .peg{
+  box-shadow: none;
+}
+#nprogress .spinner-icon {
+color: #28282B !important;
+}
+.sourceimage{
+  height: 50px;
+  width: 50px;
+}
+footer{
+  color: white;
+}
+.btn-matt{
+  background-color: #28282B;
+  color: white;
+
+}
+
+.fullscreen{
+  min-height: 100vh;
+  
+}
+.summaryinput{
+  width: 650px;
+ 
+}
+.searchinput{
+  width: 650px;
+ 
+}
+.modu2{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.page-item{
+  color: black;
+}
+.logo{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier Prime', monospace;
+  font-size:70px;
+  font-weight: 700;
+  color: white;
+ 
+  
+}
+.sum{
+  font-family: 'Courier Prime', monospace;
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  padding-top: 10px;
+  
+}
+.logo {
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 500ms;
+
+}
+.menuicon{
+  color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 700ms;
+  
+  
+  
+}
+
+.pagination{
+  display: flex;
+  flex-wrap: wrap
+}
+.sumInput{
+    width:400px;
+    height: 35px;
+}
+.multi-ripple {
+    width: 5.2rem;
+    height: 5.2rem;
+    margin: 2rem;
+    
+  
+   
+  }
+  
+ .multi-ripple div {
+    position: absolute;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;
+    border: 0.3rem solid white ;
+    animation: 1.5s ripple infinite;
+   
+
+   
+  }
+  .multi-ripple div:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .loading{
+    height: 90vh;
+    overflow: hidden;
+    margin-left: 20px;
+
+  
+    
+}
+.searchicon{
+  font-size: 22px;
+}
+
+
+@keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+  
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+@keyframes upDown {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .button{
+      display: flex;
+      justify-content: center ;
+      align-items: center;
+
+    }
+    
+    .image{
+      height: auto;
+      width: 100%;
+    }
+    .contentcard{
+      margin: 0;
+      margin-bottom: 20px;
+      
+    }
+    .prime{
+      font-size: 35px;
+    }
+   .frontbtn{
+    padding: 10px 70px;
+   }
+   .m1{
+    margin: 4px;
+  }
+  .m1 h2{
+    font-size: 16px;
+  }
+  .m1 p{
+    font-size: 9px;
+    
+  }
+  .mainpagetitle{
+   
+    font-size: 35px;
+   
+  }
+ 
+  .sum{
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+  
+    margin-bottom: 8px;
+    margin-right: 2px;
+  }
+  .logo{
+    font-size: 50px;
+  }
+  .m1 h4{
+    font-size: 19px;
+    font-style: italic;
+  }
+  .m1 small{
+    font-size: 7px;
+    
+  }
+  .m2{
+    margin: 8px;
+    margin-top: 16px;
+  }
+  .mobimr{
+    margin-left: 10px;
+    width: 100%;
+  }
+  .screenshot{
+    width: 100%;
+    height: auto;
+  }
+  .screenshotmain{
+    display: block;
+  }
+    .sumimage{
+      height: auto;
+      width: 100%;
+    }
+    small{
+      font-size: 10px;
+    }
+
+    .contenttitle{
+      margin-top: 20px;
+    }
+    .copyright {
+      font-size: 14px;
+    }
+   
+  
+    figure img{
+      height: 100%;
+      width: 100%;
+    }
+    .summaryinput{
+      width: 300px;
+    }
+    .singleimage{
+      height: auto;
+      width: 100%;
+    }
+    pre{
+      white-space: pre-wrap;
+  
+  font-size: smaller;
+      
+    }
+  }
